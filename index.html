@@ -11,7 +11,7 @@
         .button {
             display: inline-block;
             padding: 0.6em 1.2em;
-            margin: 1em auto;
+            margin: 0.5em auto;
             font-size: 1.1em;
             text-align: center;
             text-decoration: none;
@@ -20,14 +20,22 @@
             border-radius: 5px;
         }
         .video-wrapper, .quizizz-wrapper { text-align: center; margin-top: 2em; }
-        .qrcode-img { width: 160px; margin-top: 1em; }
+        .qrcode-img { width: 140px; margin-top: 0.5em; }
+        .quiz-card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 1em;
+            margin: 1em auto;
+            background-color: #fff;
+            max-width: 600px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <img src="封面圖.png" alt="封面圖" class="logo">
         <h1>Rayray no kiloma’an 豐年祭的程序</h1>
-        <p>歡迎參加這堂結合阿美語言與文化的本土語文課程，透過大富翁遊戲、句型練習與文化探索，體驗豐年祭的語言任務！</p>
+        <p style="text-align:center;">歡迎參加這堂結合阿美語言與文化的本土語文課程，透過動畫與語言遊戲，一起體驗豐年祭的語言任務！</p>
 
         <div style="text-align: center;">
             <a class="button" href="教案.pdf" download>📎 下載教案 PDF</a>
@@ -42,11 +50,35 @@
         </div>
 
         <div class="quizizz-wrapper">
-            <h2>🧠 語言任務線上測驗</h2>
-            <p>請點擊下方按鈕或掃描 QR Code 進入 Quizizz 測驗</p>
-            <a class="button" href="https://quizizz.com/join?gc=40264364" target="_blank">🚀 開始測驗</a>
-            <br>
-            <img src="quizizz_qrcode.png" alt="Quizizz 測驗 QR Code" class="qrcode-img">
+            <h2>🧠 語言任務線上測驗<br>馬蘭阿美語 9階-8課（第1～4節）</h2>
+
+            <div class="quiz-card">
+                <h3>📘 第1節 測驗</h3>
+                <a class="button" href="https://quizizz.com/join?gc=40264364" target="_blank">開始第1節測驗</a>
+                <p>📱 掃描 QR Code 進入馬蘭阿美語 9階-8課-第1節</p>
+                <img src="quizizz_qrcode_1.png" alt="第1節 QR Code" class="qrcode-img">
+            </div>
+
+            <div class="quiz-card">
+                <h3>📘 第2節 測驗</h3>
+                <a class="button" href="https://quizizz.com/join?gc=38363820" target="_blank">開始第2節測驗</a>
+                <p>📱 掃描 QR Code 進入馬蘭阿美語 9階-8課-第2節</p>
+                <img src="quizizz_qrcode_2.png" alt="第2節 QR Code" class="qrcode-img">
+            </div>
+
+            <div class="quiz-card">
+                <h3>📘 第3節 測驗</h3>
+                <a class="button" href="https://quizizz.com/join?gc=53830316" target="_blank">開始第3節測驗</a>
+                <p>📱 掃描 QR Code 進入馬蘭阿美語 9階-8課-第3節</p>
+                <img src="quizizz_qrcode_3.png" alt="第3節 QR Code" class="qrcode-img">
+            </div>
+
+            <div class="quiz-card">
+                <h3>📘 第4節 測驗</h3>
+                <a class="button" href="https://quizizz.com/join?gc=19751596" target="_blank">開始第4節測驗</a>
+                <p>📱 掃描 QR Code 進入馬蘭阿美語 9階-8課-第4節</p>
+                <img src="quizizz_qrcode_4.png" alt="第4節 QR Code" class="qrcode-img">
+            </div>
         </div>
     </div>
 </body>
