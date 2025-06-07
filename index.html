@@ -19,7 +19,8 @@
             background-color: #2d8659;
             border-radius: 5px;
         }
-        .video-wrapper { text-align: center; margin-top: 2em; }
+        .video-wrapper, .quizizz-wrapper { text-align: center; margin-top: 2em; }
+        .qrcode-img { width: 160px; margin-top: 1em; }
     </style>
 </head>
 <body>
@@ -38,6 +39,14 @@
                 <source src="大富翁動畫.mp4" type="video/mp4">
                 您的瀏覽器不支援影片播放，請使用較新版本的瀏覽器。
             </video>
+        </div>
+
+        <div class="quizizz-wrapper">
+            <h2>🧠 語言任務線上測驗</h2>
+            <p>請點擊下方按鈕或掃描 QR Code 進入 Quizizz 測驗</p>
+            <a class="button" href="https://quizizz.com/join?gc=40264364" target="_blank">🚀 開始測驗</a>
+            <br>
+            <img src="quizizz_qrcode.png" alt="Quizizz 測驗 QR Code" class="qrcode-img">
         </div>
     </div>
 </body>
